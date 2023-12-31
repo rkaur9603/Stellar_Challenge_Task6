@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favourite Recipes</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <style>
+        body {
+          background-image: url('b2.jpg');
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+    </style>
+
+    <header>
+        <p class="heading">MY FAVOURITE RECIPES</p>
+    </header>
+    <hr color="rebeccapurple">
+
+    <main>
+        <section>
+            <p style="font-family: cursive;"><b> Hello there! Are you someone who appreciates good food? </b></p>
+            <p style="font-family:cursive;"> Let's embark on a culinary adventure and whip up something truly scrumptious together. Indulge your taste buds with a variety of new and delightful recipes. Here's a curated collection of my personal favorite dishes, each accompanied by a step-by-step guide presented by some incredible individuals on YouTube. Immerse yourself in the art of cooking, follow the instructions meticulously, and savor the joy of creating and enjoying these delectable treats. </p>
+        </section>
+        <section> 
+            
+            </style>    
+            <p class="title1"><b><strong>1. WHITE SAUCE PASTA</strong></b></p>
+            <br>
+            <style>
+                body {
+                    margin: 20px;
+                }
+                img {
+                    float:inline-start; 
+                    margin-right: 20px;
+                }
+            </style>
+            <img src="White-Sauce-Paste.jpg" alt="White Sauce Pasta" height="200" width="200">
+            <p style="font-family:cursive; font-size: 20px; color:indigo;"><b> INGREDIENTS: </b></p>
+            <p class="white"> 
+                <b>BOILING:</b> 2 cups Penne Pasta (200 gms), Salt to taste, 1/2 tsp oil
+                <br><br>
+                <b>VEGETABLES:</b> 2 tsp olive/butter, 1/2 onion chopped, 1 small carrot,<br>
+                            1/2 capsicum chopped, handful of corns, salt, 1/2 tsp black pepper powder
+                <br><br>
+                <b>SAUCE:</b> 4 tbsp butter, 4 tbsp maida, 2 cups milk, Salt,<br>
+                       1/2 tsp black pepper powder, 1/2 tsp red chilly flakes,<br> 
+                       1/2 tsp mixed herb seasoning, 4-5 tbsp grated cheese
+            </p>
+        </section>
+        <article>
+            <p style="text-align: centre;"> Check out this amazing recipe of white sauce pasta! </p>
+            <style>
+                iframe {
+                    margin: 0 auto; 
+                    display:block; 
+                }
+            </style>
+            <iframe width="550" height="300" src="https://www.youtube.com/embed/XsipAaImDVc?si=BA6SYzE3Xa4t3uNG" frameborder="0" allowfullscreen></iframe>
+        </article>
+
+        <br>
+
+        <section> 
+            <p class="title2">2. CHEESE MAYONNAISE SANDWICH</p>
+            <br>
+            <style>
+                body {
+                    margin: 40px;
+                }
+                img {
+                    float:inline-start; 
+                    margin-right: 20px;
+                }
+            </style>
+            <img src="sandwich.jpeg" alt="cheese mayo sandwich" height="300" width="250">
+            <p style="font-family:cursive; font-size: 20px; color:indigo;"><b> INGREDIENTS: </b></p>
+            <p class="cheese"> 
+                <ul>
+                    <li>Bread slices</li>
+                    <li>Butter as required</li>
+                    <li>1 onion</li>
+                    <li>1 capsicum</li>
+                    <li>1 cup sweet corn(boiled)</li>
+                    <li>2-3 tbsp mayonnaise</li>
+                    <li>1/4 tsp salt</li>
+                    <li>1 tsp black pepper powder</li>
+                    <li>2 processed cheese cubes</li>
+                </ul>
+            </p>
+        </section>
+        <article>
+            <br><br>
+            <p> Check out this amazing recipe of Chesse Mayo sandwich! </p>
+            <style>
+                iframe {
+                    margin: 0 auto; 
+                    display:block; 
+                }
+            </style>
+            <iframe width="550" height="300" src="https://www.youtube.com/embed/wx6pjc8h-Ss?si=MHuZKL7jcsCI_vVp" frameborder="0" allowfullscreen></iframe>
+        </article>
+
+    </main>
+
+    <br>
+
+    <main>
+        <div id="form1">
+            <form id="myForm" onsubmit="return onSubmit()">
+                <fieldset>
+                    <legend style="color:darkslateblue; font-weight:bolder; text-align: center;">Join our Foodie community :> </legend>
+                    <label for="name1">Name:</label>
+                    <input type="text" name="NAME" id="name1">
+
+                    <label for="email">Email ID:</label>
+                    <input type="text" name="EMAIL" id="email">
+                    <span id="emailError" class="error-message"></span>
+                    
+                    <label for="phone">Phone no: </label>
+                    <input type="tel" name="ph" id="phone">
+                    <p>Gender:</p>
+                    <input type="radio" name="gender" id="g1">
+                    <label for="g1">Male</label>
+                    <input type="radio" name="gender" id="g2">
+                    <label for="g2">Female</label>
+                    <br><br>
+                    <label for="counter">Age</label>
+                    <input type="number" name="counter" id="counter" max="100" min="18">
+                    <p>Are you a chef by profession?</p>
+                    <label for="ques1">Yes</label>
+                    <input type="radio" id="ques1" name="ques">
+                    <label for="ques2">No</label>
+                    <input type="radio" name="ques" id="ques2">
+                    <p>Which food is your favourite? </p>
+                    <label for="fav1">Indian</label>
+                    <input type="checkbox" id="fav1">
+                    <label for="fav2">Chinese</label>
+                    <input type="checkbox" id="fav2">
+                    <label for="fav3">Continental</label>
+                    <input type="checkbox" id="fav3">
+                    <label for="fav4">American</label>
+                    <input type="checkbox" id="fav4">
+                    <br><br>
+                    <input type="submit" style="font-size: 25px; color:rebeccapurple; font-weight: bolder; font-family: cursive;" value="Submit">
+
+                </fieldset>
+            </form>
+        </div>    
+    </main>
+
+    <br><br>
+    <div id="quote-container">
+        <blockquote id="quote-text"></blockquote>
+        <p id="quote-author" style="text-align:end;"></p>
+        <button onclick="getRandomQuote()" id="btn" style="padding-top: 10px; padding-bottom: 10px;padding-left: 10px;padding-right: 10px; font-family: fantasy;" >Get Another Quote</button>
+    </div>
+
+    <footer>
+        <p class="end"><b> Happy Cooking :) </b></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
